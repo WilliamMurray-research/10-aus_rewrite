@@ -1,18 +1,18 @@
-# **AusRewrite‑T5: Australian English Legal Rewriting Engine**
+# AusRewrite‑T5: Australian English Legal Rewriting Engine
 
-AusRewrite‑T5 is a **hybrid symbolic–neural rewriting system** designed to convert *any English text* into **strict Australian English**, with a **formal legal register** aligned to Australian Government Style Manual conventions and AGLC‑adjacent tone.
+AusRewrite‑T5 is a hybrid symbolic–neural rewriting system designed to convert *any English text* into strict Australian English, with a formal legal register aligned to Australian Government Style Manual conventions and AGLC‑adjacent tone.
 
 The system combines:
 
-- **Prolog** — rule‑based grammar, register constraints, citation validation  
-- **Regex** — deterministic surface‑level transformations  
-- **LLM** — semantic rewriting within symbolic constraints  
+- **Prolog** - rule‑based grammar, register constraints, citation validation  
+- **Regex** - deterministic surface‑level transformations  
+- **LLM** - semantic rewriting within symbolic constraints  
 
-This architecture produces **high‑precision, deterministic rewrites** suitable for legal, academic, and government contexts.
+This architecture produces high‑precision, deterministic rewrites suitable for legal, academic, and government contexts.
 
 ---
 
-## **1. Purpose**
+## 1. Purpose
 
 AusRewrite‑T5 provides:
 
@@ -32,24 +32,20 @@ It is designed for:
 
 ---
 
-## **2. System Architecture**
+## 2. System Architecture
 
+AusRewrite‑T5 uses a three‑layer pipeline:
 
-
-
-
-AusRewrite‑T5 uses a **three‑layer pipeline**:
-
-### **Layer 1 — Regex Pre‑Processor**
+### Layer 1 - Regex Pre‑Processor
 Handles surface transformations:
 
 - Australian spelling replacements  
 - punctuation normalisation  
 - contraction removal  
 - citation pattern detection  
-- whitespace and formatting cleanup  
+- whitespace and formatting clean-up  
 
-### **Layer 2 — Prolog Rule Engine**
+### Layer 2 - Prolog Rule Engine
 Applies structural and contextual constraints:
 
 - grammar rules  
@@ -58,7 +54,7 @@ Applies structural and contextual constraints:
 - rule‑based transformations  
 - constraint satisfaction  
 
-### **Layer 3 — LLM Rewriter**
+### Layer 3 - LLM Rewriter
 Performs semantic rewriting:
 
 - preserves meaning  
@@ -69,26 +65,26 @@ Performs semantic rewriting:
 
 ---
 
-## **3. Features**
+## 3. Features
 
-### **Australian Spelling**
+### Australian Spelling
 - organisation, labour, defence  
 - licence (noun) / license (verb)  
 - centre, metre, colour  
 
-### **Legal Register**
+### Legal Register
 - no contractions  
 - precise terminology (section, clause, subsection)  
 - neutral, formal tone  
 - no rhetorical or conversational phrasing  
 
-### **Grammar & Punctuation**
+### Grammar & Punctuation
 - Australian quotation style  
 - consistent comma/semicolon usage  
 - list and section formatting  
 - passive/active voice constraints  
 
-### **Citation Awareness**
+### Citation Awareness
 - case law pattern detection  
 - legislation pattern detection  
 - pinpoint references  
@@ -96,53 +92,53 @@ Performs semantic rewriting:
 
 ---
 
-## **4. Workflow**
+## 4. Workflow
 
-### **Input → Regex → Prolog → LLM → Prolog → Output**
+### Input → Regex → Prolog → LLM → Prolog → Output
 
-1. **Regex Pre‑Processing**  
+1. Regex Pre‑Processing  
    - normalise spelling  
    - detect citations  
    - remove contractions  
    - tag legal structures  
 
-2. **Prolog Rule Application**  
+2. Prolog Rule Application  
    - enforce grammar constraints  
    - validate citations  
    - apply legal register rules  
    - mark segments requiring semantic rewrite  
 
-3. **LLM Rewrite**  
+3. LLM Rewrite
    - rewrite only marked segments  
    - preserve meaning  
    - apply formal Australian legal tone  
 
-4. **Prolog Post‑Validation**  
+4. Prolog Post‑Validation  
    - ensure compliance with all rules  
    - check spelling, register, citations  
 
-5. **Regex Final Cleanup**  
+5. Regex Final Cleanup  
    - punctuation  
    - spacing  
    - formatting  
 
 ---
 
-## **5. Example Usage**
+## 5. Example Usage
 
-### **Input**
+### Input
 ```
 The program will likely start next year, and the organization said they "can't confirm" the exact date.
 ```
 
-### **Output**
+### Output
 ```
 The organisation stated that it cannot confirm the precise commencement date of the program, which is expected to begin next year.
 ```
 
 ---
 
-## **6. Directory Structure**
+## 6. Directory Structure
 
 ```
 ausrewrite-t5/
@@ -266,23 +262,23 @@ ausrewrite-t5/
 
 ---
 
-## **7. Design Principles**
+## 7. Design Principles
 
-- **Deterministic first, probabilistic second**  
+- Deterministic first, probabilistic second  
   Symbolic rules constrain the model, not the other way around.
 
-- **Narrow domain, deep reasoning**  
+- Narrow domain, deep reasoning  
   The system specialises in rewriting, not general chat.
 
-- **Rule‑faithful outputs**  
+- Rule‑faithful outputs  
   Every rewrite must pass Prolog validation.
 
-- **Semantic fidelity**  
+- Semantic fidelity  
   Meaning is preserved; register and style change.
 
 ---
 
-## **8. Roadmap**
+## 8. Roadmap
 
 - Add AGLC4 full citation normalisation  
 - Add compression/expansion modes  
@@ -292,12 +288,12 @@ ausrewrite-t5/
 
 ---
 
-## **9. Related Components**
+## 9. Related Components
 
-- **Prolog spelling rules**  
-- **Regex pack for Australian spelling**  
-- **Hybrid Prolog–LLM pipeline**  
-- **100M specialist transformer blueprint**  
+- Prolog spelling rules  
+- Regex pack for Australian spelling  
+- Hybrid Prolog–LLM pipeline  
+- 100M specialist transformer blueprint  
 
 ---
 
