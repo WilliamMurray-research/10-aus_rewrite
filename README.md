@@ -145,132 +145,33 @@ The organisation stated that it cannot confirm the precise commencement date of 
 ## **6. Directory Structure**
 
 ```
-/
-├── docs/                                 
-│   ├── research/
-│   │   ├── whitepapers/
-│   │   ├── hypotheses/
-│   │   ├── proofs/
-│   │   └── algorithms/
-│   │
-│   ├── governance/
-│   │   # motivation, roles, constraints, architecture live here
-│   │
-│   ├── operations/
-│   │   ├── procurement/
-│   │   ├── compute/
-│   │   └── records/
-│   │
-│   ├── motivation.md
-│   ├── dsl-spec.md
-│   ├── architecture.md
-│   ├── telemetry.md
-│   ├── rendering.md
-│   ├── roles.md
-│   ├── constraints.md
-│   ├── versioning.md
-│   ├── changelog-spec.md
-│   └── roadmap.md
+ausrewrite-t5/
 │
-├── risk/                                 
-│   ├── README.md
-│   ├── register.md
-│   ├── taxonomy.md
-│   │
-│   ├── assessment/
-│   │   ├── methodology.md
-│   │   └── templates/
-│   │
-│   ├── mitigations/
-│   │   ├── strategies.md
-│   │   └── controls.md
-│   │
-│   └── audit/
-│       ├── risk_log.md
-│       └── risk_snapshots/
+├── prolog/
+│   ├── spelling_rules.pl
+│   ├── grammar_rules.pl
+│   ├── legal_register.pl
+│   ├── citation_patterns.pl
+│   └── validator.pl
 │
-├── security/                             
-│   ├── README.md
-│   ├── framework.md
-│   │
-│   ├── policies/
-│   │   ├── access_control.md
-│   │   ├── data_protection.md
-│   │   ├── cryptography.md
-│   │   ├── network_security.md
-│   │   ├── application_security.md
-│   │   └── operational_security.md
-│   │
-│   ├── threat_model/
-│   │   ├── methodology.md
-│   │   ├── adversary_classes.md
-│   │   ├── attack_surfaces.md
-│   │   └── scenarios/
-│   │
-│   ├── controls/
-│   │   ├── technical_controls.md
-│   │   ├── administrative_controls.md
-│   │   └── physical_controls.md
-│   │
-│   └── audit/
-│       ├── security_log.md
-│       └── security_snapshots/
+├── regex/
+│   ├── spelling_patterns.txt
+│   ├── punctuation_patterns.txt
+│   ├── citation_regex.txt
+│   └── cleanup_regex.txt
 │
-├── src/                                   # implementation domain
-│   ├── telemetry/
-│   │   ├── *.py
-│   │   └── *.py
-│   │
-│   ├── ausrewrite_t5/                     # INSERTED MODULE
-│   │   ├── prolog/
-│   │   │   ├── spelling_rules.pl
-│   │   │   ├── grammar_rules.pl
-│   │   │   ├── legal_register.pl
-│   │   │   ├── citation_patterns.pl
-│   │   │   └── validator.pl
-│   │   │
-│   │   ├── regex/
-│   │   │   ├── spelling_patterns.txt
-│   │   │   ├── punctuation_patterns.txt
-│   │   │   ├── citation_regex.txt
-│   │   │   └── cleanup_regex.txt
-│   │   │
-│   │   ├── model/
-│   │   │   ├── tokenizer.json
-│   │   │   ├── config.json
-│   │   │   └── weights/
-│   │   │
-│   │   ├── pipeline/
-│   │   │   ├── preprocess.py
-│   │   │   ├── prolog_interface.py
-│   │   │   ├── rewrite.py
-│   │   │   └── postprocess.py
-│   │   │
-│   │   └── README.md
-│   │
-│   ├── config/
-│   └── main.py
+├── model/
+│   ├── tokenizer.json
+│   ├── config.json
+│   └── weights/
 │
-├── assets/
-│   ├── *.md
-│   └── *.md
+├── pipeline/
+│   ├── preprocess.py
+│   ├── prolog_interface.py
+│   ├── rewrite.py
+│   └── postprocess.py
 │
-├── tests/
-│   ├── *.md
-│   └── *.md
-│
-├── versions/                              # immutable project snapshots
-│
-├── logs/                                   # append-only audit logs
-│   ├── issues/
-│   │   └── postmortem.md
-│   ├── CHANGELOG.md
-│   └── critique_history.log
-│
-├── CONTRIBUTING.md
-├── CODEOWNERS
-├── README.md
-└── LICENSE
+└── README.md
 
 ```
 
