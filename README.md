@@ -168,6 +168,32 @@ ausrewrite-t5/
 │   ├── changelog-spec.md
 │   └── roadmap.md
 │
+├── architecture/
+│   ├── system/
+│   │   ├── context.md            # C4 Level 1
+│   │   ├── containers.md         # C4 Level 2
+│   │   ├── components.md         # C4 Level 3
+│   │   └── code.md               # C4 Level 4 (optional)
+│   │
+│   ├── data/
+│   │   ├── models.md             # schemas, invariants
+│   │   ├── flows.md              # pipelines, telemetry paths
+│   │   └── storage.md            # persistence, immutability rules
+│   │
+│   ├── interfaces/
+│   │   ├── api.md                # external surfaces
+│   │   ├── dsl.md                # your DSL spec lives here
+│   │   └── rendering.md          # deterministic rendering rules
+│   │
+│   ├── constraints/
+│   │   ├── invariants.md
+│   │   ├── safety.md
+│   │   └── performance.md
+│   │
+│   └── roadmap/
+│       ├── evolution.md
+│       └── versioning.md
+│
 ├── risk/                                 
 │   ├── README.md
 │   ├── register.md
