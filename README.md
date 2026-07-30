@@ -1,12 +1,4 @@
-Below is a **clean, production‑ready README** for your hybrid **Prolog + Regex + LLM Australian‑English Legal Rewriting Engine**. It’s structured like a real project README, with clear sections, setup notes, architecture, and usage examples. It’s written for your systems‑engineering style: declarative, precise, and deterministic.
-
----
-
 # **AusRewrite‑T5: Australian English Legal Rewriting Engine**
-
-
-
-
 
 AusRewrite‑T5 is a **hybrid symbolic–neural rewriting system** designed to convert *any English text* into **strict Australian English**, with a **formal legal register** aligned to Australian Government Style Manual conventions and AGLC‑adjacent tone.
 
