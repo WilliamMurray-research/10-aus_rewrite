@@ -1,4 +1,18 @@
-# AusRewrite‑T5: Australian English Legal Rewriting Engine
+# **CLASSIFICATION: D**
+
+Document Reference: `2026-007-spec-D`  
+Version: `1.0`  
+Status: `ACTIVE`  
+Effective Date: `2026-07-30`  
+Next Review: `2027-07-30`  
+Owner / Custodian: `Corpus Authority`  
+Classification Authority: `Corpus Authority`  
+Distribution: `OPEN`  
+Supersedes: `—`  
+
+# **AusRewrite‑T5: Australian English Legal Rewriting Engine**  
+
+---
 
 AusRewrite‑T5 is a hybrid symbolic–neural rewriting system designed to convert *any English text* into strict Australian English, with a formal legal register aligned to Australian Government Style Manual conventions and AGLC‑adjacent tone.
 
