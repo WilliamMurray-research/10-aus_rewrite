@@ -1,12 +1,12 @@
 # **CLASSIFICATION: D**
 
-Document Reference: `2026-007-spec-D`  
+Document Reference: `2026-001-project-D`  
 Version: `1.0`  
 Status: `ACTIVE`  
 Effective Date: `2026-07-30`  
 Next Review: `2027-07-30`  
-Owner / Custodian: `Corpus Authority`  
-Classification Authority: `Corpus Authority`  
+Owner / Custodian: `William Murray`  
+Classification Authority: `Founding Chief Architect`  
 Distribution: `OPEN`  
 Supersedes: `—`  
 
