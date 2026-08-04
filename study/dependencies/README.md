@@ -57,7 +57,7 @@
 * 10.7.2 - KV Cache Optimisation (PagedAttention, FlashAttention, FP8 KV, Eviction Policies/LRU)
 * 10.7.3 - Prefill vs. Decode Phase Optimisation & Continuous/Dynamic Batching Strategies
 * 10.7.4 - Speculative Decoding & Medusa-Style Head Acceleration
-* 10.7.5 - Hardware-Aware Kernel Optimisation (Triton, CUDA, Fused Ops, SIMD/AVX, ARM NEON/SVE)
+* 10.7.5 - Hardware-Aware Kernel Optimisation (Triton, CUDA, Fused Ops, SIMD/AVX, ARM NEON/SVE, **Mojo**)
 
 **10.8 - Deployment & Edge Execution**
 
