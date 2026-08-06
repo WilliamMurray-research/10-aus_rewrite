@@ -1,8 +1,5 @@
-Here is the corrected document updated for proper rendering on GitHub. GitHub’s MathJax/KaTeX renderer requires block equations to be enclosed in `$$ ... $$` (on separate lines) rather than LaTeX `\[ ... \]` brackets.
-
----
-
 # Formal Conditions for Functional Transformation in Large Language Models: A Measure-Theoretic and Operational Framework
+v0.1
 
 ## Abstract
 
